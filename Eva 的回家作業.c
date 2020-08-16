@@ -1,11 +1,10 @@
 #include <stdio.h>
-int cow,c,d;
+int col,c,d;
 int a1,a2,a3,a4,a5,a6;
 int main(){
-   printf("please input ¼Æ¦C:\n");
-   scanf("%d",&cow);
-   if(cow<0||cow>20)printf("error!");
-   for(int i=0;i<cow;i++)
+   scanf("%d",&col);
+   if(col<0||col>20)printf("error!");
+   for(int i=0;i<col;i++)
    {
        scanf("%d %d %d %d",&a1,&a2,&a3,&a4);
        if(a3%a2==0)
